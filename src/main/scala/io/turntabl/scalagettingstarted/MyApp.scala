@@ -14,6 +14,9 @@ object MyApp extends App {
     def odd(num: Int) = if (even(num)) false else true
 //    print(odd(2))
 
+    def even2(num:Int) = even(num)
+//    print(even2(3))
+
     def wordsToLower(words: String*) = words map (_.toLowerCase)
 //    print(wordsToLower("NADIA","TAWIAH","UG"))
 
